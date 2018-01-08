@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box; }
+
+header .img-header {
+  height: 280px;
+  width: 98.5%;
+  margin-left: 0.78%; }
+header .navigation {
+  height: 60px;
+  justify-content: center;
+  margin-left: 0.78%;
+  width: 98.5%;
+  background-color: #fff;
+  margin-bottom: 0px;
+  margin-top: -10px; }
+  header .navigation nav ul li {
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    margin-left: 11%;
+    font-size: 24px;
+    margin-top: 10px; }
+
+body {
+  /*Helhed frontpage start*/
+  /*indsats frontpage start*/ }
+  body .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 1800px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 0.5rem; }
+  body .flex-1 {
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px; }
+    body .flex-1 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-2 {
+    margin: 0.5rem;
+    width: 32%; }
+    body .flex-2 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-3 {
+    margin: 0.5rem;
+    width: 32%; }
+    body .flex-3 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-4 {
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px; }
+    body .flex-4 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-5 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-5 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-6 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-6 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-7 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-7 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-8 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-8 img {
+      width: 100%;
+      max-height: 230px; }
+  body .flex-9 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-9 img {
+      width: 100%;
+      max-height: 230px; }
+  body .helhed_flex-1 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 5rem; }
+    body .helhed_flex-1 img {
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s; }
+      body .helhed_flex-1 img:hover {
+        opacity: 0.5;
+        color: #fff; }
+  body .helhed_flex-2 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px; }
+    body .helhed_flex-2 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: "Muli"; }
+  body .helhed_flex-3 {
+    margin: 0.7rem;
+    margin-left: -5px;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 5rem; }
+    body .helhed_flex-3 img {
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s; }
+      body .helhed_flex-3 img:hover {
+        opacity: 0.5;
+        color: #fff; }
+  body .helhed_flex-4 {
+    margin: 0.5rem;
+    width: 40%;
+    height: 300px; }
+    body .helhed_flex-4 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: "Muli"; }
+  body .helhed_flex-5 {
+    width: 30%;
+    margin: 0.7rem;
+    height: 230px; }
+    body .helhed_flex-5 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+      body .helhed_flex-5 img:hover {
+        opacity: 0.5;
+        color: #fff; }
+  body .helhed_flex-6 {
+    width: 40%;
+    margin: 0.7rem;
+    height: 230px; }
+    body .helhed_flex-6 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+      body .helhed_flex-6 img:hover {
+        opacity: 0.5;
+        color: #fff; }
+  body .indsats_flex-2 {
+    margin: 1.0rem;
+    width: 72%;
+    height: 300px; }
+    body .indsats_flex-2 h1 {
+      font-family: "Muli";
+      font-size: 55px;
+      text-align: center; }
+    body .indsats_flex-2 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 20px;
+      font-family: "Muli";
+      text-align: center; }
+      body .indsats_flex-2 p li {
+        width: 100%;
+        max-height: 300px;
+        font-size: 20px;
+        font-family: "Muli";
+        text-align: center; }
+  body .indsats_flex-3 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left; }
+    body .indsats_flex-3 img {
+      width: 100%;
+      max-height: 300px; }
+  body .indsats_flex-4 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-top: -12px; }
+    body .indsats_flex-4 h1 {
+      font-family: "Muli"; }
+    body .indsats_flex-4 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: "Muli"; }
+      body .indsats_flex-4 p .indsatsliste {
+        width: 100%;
+        max-height: 300px;
+        font-size: 20px;
+        font-family: "Muli"; }
+  body .indsats_flex-5 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left; }
+    body .indsats_flex-5 img {
+      width: 100%;
+      max-height: 300px; }
+  body .indsats_flex-6 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-top: -12px; }
+    body .indsats_flex-6 h1 {
+      font-family: "Muli"; }
+      body .indsats_flex-6 h1 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+        body .indsats_flex-6 h1 p .indsatsliste {
+          width: 100%;
+          max-height: 300px;
+          font-size: 20px;
+          font-family: "Muli"; }
+        body .indsats_flex-6 h1 p li {
+          font-family: "Muli"; }
+  body .indsats_flex-7 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left; }
+    body .indsats_flex-7 img {
+      width: 100%;
+      max-height: 300px; }
+  body .indsats_flex-8 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-top: -12px; }
+    body .indsats_flex-8 h1 {
+      font-family: "Muli"; }
+    body .indsats_flex-8 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: "Muli"; }
+      body .indsats_flex-8 p li {
+        width: 100%;
+        max-height: 300px;
+        font-size: 20px;
+        font-family: "Muli"; }
+  body footer {
+    height: 130px;
+    background-color: black; }
+
+/*# sourceMappingURL=style.css.map */
