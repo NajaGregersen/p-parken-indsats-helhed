@@ -1,0 +1,256 @@
+@import "_mixin.scss";
+@import "_variable.scss";
+
+* {
+  box-sizing: border-box;
+  max-height: 3000px;
+}
+header {
+  .img-header{
+    height: 280px;
+    width: 98.5%;
+    margin-left: 0.78%;
+
+   }
+    .navigation{
+      height: 60px;
+      justify-content: center;
+      margin-left: 0.78%;
+      width: 98.5%;
+      background-color: white;
+      margin-bottom: 0px;
+      margin-top: -10px;
+
+      nav{
+        ul{
+          li{
+            display: inline-block;
+            float: left;
+            list-style-type: none;
+            margin-left: 11%;
+            font-size: 24px;
+            margin-top: 10px;
+
+
+        }
+      }
+    }
+  }
+}
+//forside opsætning start
+body{
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 1800px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .aktivitet_flex-1{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-2{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+
+  }
+  .aktivitet_flex-4{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-5{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+
+  }
+  .aktivitet_flex-7{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-8{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+
+  .aktivitet_flex-9{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-10{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px;
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+}
+.aktivitetbrand_flex-1{
+  margin: 1.0rem;
+  width: 72%;
+  height: 200px;
+
+  h1 {
+    font-family: $primaryFont;
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+.aktivitetbrand_flex-2{
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.aktivitetbrand_flex-3{
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -3px;
+  margin-bottom: 120px;
+
+h1{
+  width: 100%;
+  max-height: 300px;
+  font-size: 20px;
+  font-family: $primaryFont;
+}
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+    }
+   }
+
+.aktivitetbrand_flex-4 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+    margin-left: -317px;
+    margin-top: -80px;
+  }
+}
+//forside opsætning slut
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+}
